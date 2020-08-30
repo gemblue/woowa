@@ -1,14 +1,14 @@
-# Gemblue\Woowa
+# Woowa
 
 Simple Woowa Wrapper API. Woowa is popular platform to send Whatsapp message ☎️
 https://woo-wa.com/
 
-# How to use
+### How to use
 
 Download the package with composer
 
 ```
-composer require gemblue\woowa
+composer require gemblue/woowa
 ```
 
 Then, consume the library and send message
