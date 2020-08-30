@@ -45,14 +45,16 @@ class Woowa
 
     /**
      * Setup config.
+     *
+     * @param mixed $config
      */
-    public function setup(array $config): void 
+    public function setup($config): void
     {
-        $this->sender = $config['sender'];
-        $this->domain = $config['domain'];
+        $this->sender  = $config['sender'];
+        $this->domain  = $config['domain'];
         $this->license = $config['license'];
-        $this->ip = $config['ip'];
-        $this->key = $config['key'];
+        $this->ip      = $config['ip'];
+        $this->key     = $config['key'];
     }
 
     /**
